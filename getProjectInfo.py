@@ -10,5 +10,4 @@ def isHaveKeyWord(projectLink, keyWrod):
     resultList = re.findall(keyWrod, response.text)
     if len(resultList) > 0:
         return True
-
     return False
