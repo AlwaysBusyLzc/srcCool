@@ -11,9 +11,3 @@ def getOnePage(pageNum):
     pl = re.findall(r'回复: <a href="thread-.*?.html', response.text)
     projectList.extend(pl)
     print(projectList)
-
-
-
-
-
-
