@@ -4,7 +4,7 @@ from multiprocessing import Pool
 import getProjectLink
 import getProjectInfo
 
-keyWord = "python"
+keyWord = ["最后一战"]
 
 
 def dealOneProject(project):
